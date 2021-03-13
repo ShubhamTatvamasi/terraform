@@ -16,6 +16,16 @@ terraform apply
 terraform apply -auto-approve
 ```
 
+apply with variable:
+```bash
+terraform apply -var "subnet_cidr_block=10.0.10.0/24"
+```
+
+apply with variables file:
+```bash
+terraform apply -var-file terraform-prod.tfvars
+```
+
 List current state of the resources created by terraform:
 ```bash
 terraform state list
