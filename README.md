@@ -21,6 +21,11 @@ List current state of the resources created by terraform:
 terraform state list
 ```
 
+check the state of a specific resource:
+```bash
+terraform state show aws_vpc.development-vpc
+```
+
 delete a specific resource from cloud provider: 
 ```bash
 terraform destroy --target aws_subnet.dev-subnet-2
@@ -29,5 +34,6 @@ terraform destroy --target aws_subnet.dev-subnet-2
 delete everything:
 ```bash
 terraform destroy
+terraform destroy -auto-approve
 ```
 
