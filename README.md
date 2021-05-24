@@ -10,6 +10,12 @@ Plan all the things to be deployed:
 terraform plan
 ```
 
+get graph for your infrastructure:
+```bash
+sudo apt install graphviz
+terraform graph | dot -Tsvg > graph.svg
+```
+
 Apply on cloud:
 ```bash
 terraform apply
