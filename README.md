@@ -5,6 +5,11 @@ Setup terraform provider plugins:
 terraform init
 ```
 
+Formate `.tf` files:
+```bash
+terraform fmt
+```
+
 Plan all the things to be deployed:
 ```bash
 terraform plan
