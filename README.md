@@ -7,7 +7,7 @@ terraform init
 
 Formate `.tf` files:
 ```bash
-terraform fmt
+terraform fmt -recursive
 ```
 
 Plan all the things to be deployed:
