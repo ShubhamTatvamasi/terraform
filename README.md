@@ -1,5 +1,15 @@
 # terraform
 
+### Terraform Cloud Setup
+
+In the **Variables** section create two **Sensitive** Terraform variable:
+```
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+```
+
+---
+
 Setup terraform provider plugins:
 ```bash
 terraform init
